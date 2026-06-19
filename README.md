@@ -135,8 +135,8 @@ What I'd Do Differently:
 
 Limitations
 
-Industry-tier debt multipliers are portfolio level assumptions, not client specific leverage measurements.
-Expected loss modelling reflects the dataset's existing contribution figures and hasn't been independently re-derived from first principles (PD * LGD * EAD).
+- Industry-tier debt multipliers are portfolio level assumptions, not client specific leverage measurements.
+- Expected loss modelling reflects the dataset's existing contribution figures and hasn't been independently re-derived from first principles (PD * LGD * EAD).
 
 ---
 
