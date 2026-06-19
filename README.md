@@ -1,8 +1,6 @@
 # customer-credit-risk-scorecard
 Thornfield Group — Customer Credit Risk Scorecard & Stress-Test Engine
 
-Live Demo: [video link – when you have it]
-
 ---
 
 Overview
@@ -98,14 +96,22 @@ Key Findings
 
 Dashboard Structure
 
-Page 1 – Portfolio Overview & Stress-Test Results
-Headline KPIs, baseline decision split, three-scenario decision distribution, ICR distribution, and a baseline-vs-worst-case comparison.
 
-Page 2 – Industry Deep-Dive
-Average ICR by sector across all three scenarios, segmented into low/medium/high debt-multiplier tiers with a 1.5 threshold reference line. Shows how much of each sector's baseline coverage is lost at each shock stage.
+![Page 1 – Portfolio Overview & Stress-Test Results](images/page1_overview.png)
+
+Page 1: Portfolio Overview & Stress-Test Results
+This page shows the Headline KPIs, baseline decision split, three-scenario decision distribution and ICR distribution across the portfolio.
+
+![Page 2 – Industry Deep-Dive ](images/page2_industry_tiers.png)
+
+Page 2 -  The Industry Deep-Dive
+The average ICR by sector across all three scenarios, segmented into low/medium and high debt-multiplier tiers with a 1.5 threshold reference line. Showing how much of each sector's baseline coverage is lost at each shock stage.
+
+
+![Page 3 – Scatter Plot (75 clients) ](images/page3_scatter.png)
 
 Page 3 – Client-Level Risk & Credit Decisions
-Scatter plot of all 75 clients by ICR and income-to-loan ratio against both decision thresholds. Plus expected loss concentration by industry, decision split isolated to high-risk tier, and manual review concentration by industry.
+ A scatter plot of all 75 clients by ICR and income-to-loan ratio against both decision thresholds. Plus the expected loss concentration by industry, decision split isolated to high-risk tier, and manual review concentration by industry.
 
 ---
 
@@ -139,5 +145,3 @@ Limitations
 - Expected loss modelling reflects the dataset's existing contribution figures and hasn't been independently re-derived from first principles (PD * LGD * EAD).
 
 ---
-
-
